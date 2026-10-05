@@ -1,0 +1,24 @@
+# Environment variables (NEVER commit this - contains your secret bot token)
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Database (contains guild data, regenerates automatically)
+frostcodes.db
+*.db
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
